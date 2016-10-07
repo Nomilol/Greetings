@@ -3,35 +3,26 @@ console.log('have fun !');
 function hello(){
 	var lastName = $('#last_name').val();
 	var city = $('#city').val();
+	var infos = {};
 
-
-	var infos = {
-		first_name : 'first name',
-		last_name : 'last name',
-		city : 'city'
-	}
 	$('button').click(function(){
-		var name = $('#first_name').val();
-		infos.first_name = name;
-		console.log(infos);
-		var lastName = $('#last_name').val();
-		infos.last_name = lastName;
-		console.log(infos);
-		var city = $('#city').val();
-		infos.city = city;
-		console.log(infos);
+		infos.first_name = $('#first_name').val();
+		infos.last_name  = $('#last_name').val();
+		infos.city = $('#city').val();
 
-
-		
 		var salut = $('#username').html(infos.last_name + " " + infos.first_name);
-
-		
-		
 
 	});
 
 };
 
 hello();
+
+
+
+
+
+
+
 
 
