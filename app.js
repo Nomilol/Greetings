@@ -33,6 +33,5 @@ function hello(){
 };
 
 hello();
-/*Concaténez les champs first_name et last_name et 
-dites bonjour à notre cher visiteur dans le titre en 
-replacant le contenu du span #username*/
+
+
